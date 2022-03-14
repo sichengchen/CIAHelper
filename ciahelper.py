@@ -44,4 +44,3 @@ generateQRCode(addressPrefix + ':8080/' + files[fileNumber])
 os.system('open qrcode.png') #This may only work on macOS, please check it before using.
 os.chdir(pathPrefix + '/' + path)
 openHttpServer(8080)
-print(files)
